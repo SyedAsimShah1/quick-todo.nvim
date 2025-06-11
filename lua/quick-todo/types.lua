@@ -6,8 +6,7 @@
 
 ---@class QuickTodo
 ---@field setup function: setup the plugin
----@field hello function: Say hello to the user
----@field bye function: Say bye to the user
+---@field open_todo function: Open the todo window
 
 -- lua/quick-todo/config.lua ---------------------------------------------------------
 
@@ -16,11 +15,15 @@
 ---@field options Options: user options
 ---@field setup function: setup the plugin
 
----@class UserOptions
----@field name? string: The name of the user
+---@class Keys
+---@field open string: key for opening todo window
 
----@class DefaultOptions
----@field name string: The name of the user
+---@class WindowOptions
+---@field height? integer: window height
+---@field width? integer: window width
+---@field border? string: window border
+---@field winblend? integer: window transparency
 
 ---@class Options
----@field name string: The name of the user
+---@field keys? Keys: Keymap
+---@field window? WindowOptions: Options for todo window

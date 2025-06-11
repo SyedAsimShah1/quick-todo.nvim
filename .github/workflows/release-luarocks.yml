@@ -30,6 +30,6 @@ jobs:
           LUAROCKS_API_KEY: ${{ secrets.LUAROCKS_API_KEY }}
         with:
           detailed_description: |
-            A template for Neovim plugin
+            A minimal Neovim plugin to quickly define, manage and complete tasks per project.
           copy_directories: |
             {{ neovim.plugin.dirs }}
