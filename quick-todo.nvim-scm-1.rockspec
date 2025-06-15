@@ -8,7 +8,7 @@ local user = "SyedAsimShah1"
 package = "quick-todo.nvim"
 
 description = {
-	summary = "A minimal Neovim plugin to quickly define, manage and complete tasks per project.",
+	summary = "A minimal Neovim plugin to quickly define and complete tasks per project.",
 	labels = { "neovim" },
 	homepage = "https://github.com/" .. user .. "/" .. package,
 	license = "MIT",
